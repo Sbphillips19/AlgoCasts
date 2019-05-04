@@ -44,7 +44,7 @@ function steps(n, row = 0, stair = '') {
 
 module.exports = steps;
 
-// my solution 1
+// my solution 1 and my favorite solution
 // function steps(n) {
 //   for (let i = 1; i <= n; i++) {
 //     let hashtag = '#';
