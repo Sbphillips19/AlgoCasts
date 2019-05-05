@@ -25,16 +25,16 @@
 class Queue {
   // constructor called automatically when create new instance
   constructor() {
-    this.data = [];
+    data = [];
   }
 
-  add(record) {
-    this.data.unshift(record);
-  }
+  add = record => {
+    unshift(record);
+  };
 
-  remove() {
-    return this.data.pop();
-  }
+  remove = () => {
+    return data.pop();
+  };
 }
 
 module.exports = Queue;
