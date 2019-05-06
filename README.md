@@ -54,3 +54,7 @@ There are different orders of traversal-->
 Binary search tree- every node can have at most 2 nodes (left and right node)- left has value lower than the parent, right has value higher
 
 Binary tree- only requirement is just 2 nodes underneath each node
+
+Sorting:
+BubbleSort (easiest) & SelectionSort (easier)- n^2
+MergeSort (medium)- n\*log(n)
